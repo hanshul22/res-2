@@ -1,0 +1,175 @@
+.kidsworld{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carditem{
+    display: flex; 
+    flex-direction: row;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.cart{
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.image{
+    background-image: url("kw-background.png");
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.shop{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.havefun{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.repeat{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.newandnow{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.align{
+    margin-left: 70px;
+    padding-top: 30px;
+}
+.discover{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+.book{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book1{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+}
+.name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.info{
+    color: gray;
+    font-size: 17px;
+}
+.price1{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: #6095ff;
+    border-radius: 4px;
+    border-collapse: collapse;
+    border: none;
+    padding: 5px;
+}
+
+.boo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -20px;
+}
+
+.black{
+    background-color: black;
+    display: flex;
+    margin-top: 150px;
+}
+.one{
+    margin-left: 30px;
+}
+
+.bl{
+    color: white;
+}
+
+.imaa{
+    border-radius: 100%;
+}
+.text{
+    margin-left: 1100px;
+    margin-top: 40px;
+}
+
+.kri{
+    color: white;
+    margin-left: 140px;
+    font-size: larger;
+    font-weight: bold;
+}
+.made{
+    color: white;
+}
+
+@media screen and (max-width: 400px){
+    .align{
+        display: flex;
+        font-size: 15px;
+        height: 200px;
+        text-align: left;
+        flex-direction: column;
+        padding: 5%;
+    }
+    .shop{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .newandnow{
+        font-size: 5px;
+    }
+    .book{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .book1 {
+        align-self: center;
+    }
+
+}

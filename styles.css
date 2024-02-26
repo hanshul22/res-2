@@ -1,0 +1,217 @@
+.kidsworld{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carditem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.cart{
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.imageee{
+    background-image: url("kw-background.png");
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.shop{
+    flex-wrap: wrap;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.havefun{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.repeat{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.newandnow{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.align{
+    margin-left: 70px;
+    padding-top: 30px;
+}
+.discover{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+.book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+}
+.name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.info{
+    color: gray;
+    font-size: 17px;
+}
+.price1{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: #6095ff;
+    border-radius: 4px;
+    border-collapse: collapse;
+    border: none;
+    padding: 5px;
+}
+
+.boo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -20px;
+}
+
+.black{
+    background-color: black;
+    display: flex;
+    margin-top: 150px;
+}
+.one{
+    margin-left: 30px;
+}
+
+.bl{
+    color: white;
+}
+
+.imaa{
+    border-radius: 100%;
+}
+.text{
+    margin-left: 1100px;
+    margin-top: 40px;
+}
+
+.kri{
+    color: white;
+    margin-left: 140px;
+    font-size: larger;
+    font-weight: bold;
+}
+.made{
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .kidsworld {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .image {
+        height: 200px;
+    }
+
+    .shop, .havefun, .repeat {
+        font-size: 5px;
+    }
+
+    .newandnow {
+        font-size: 14px;
+    }
+
+    .align, .discover {
+        margin-left: 10px;
+    }
+
+    .book1 {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .price1 {
+        font-size: smaller;
+    }
+
+    .btn {
+        padding: 3px;
+    }
+
+    .black {
+        margin-top: 80px;
+    }
+
+    .one {
+        margin-left: 10px;
+    }
+
+    .text {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .kri {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    .made{
+        font-size: medium;
+        margin-left: 10px;
+    }
+}
